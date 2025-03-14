@@ -3,6 +3,8 @@
 ## Overview
 This project performs image augmentation on a set of images using TensorFlow/Keras. The script selects five random images from a specified dataset directory, applies various augmentation techniques, and displays the original and augmented images in a grid format.
 
+Data Augmentation is is the process of artificially generating new data from existing data, primarily to train new machine learning (ML) models. ML models require large and varied datasets for initial training, but sourcing sufficiently diverse real-world datasets can be challenging because of data silos, regulations, and other limitations. Data augmentation artificially increases the dataset by making small changes to the original data( Definition by AWS).
+
 ## Dependencies
 Ensure you have the following Python packages installed before running the script:
 
