@@ -114,7 +114,16 @@ for ax in axes:
 plt.tight_layout()
 plt.show()
 ```
+## CNN Training and Comparison
 
+### Steps:
+1. **Train on Original Data**:  
+   ```bash
+   python train.py --data_dir data/original --model_name original_model.h5
+2. **Train on Augmented Data**:
+   python train.py --data_dir data/augmented --model_name augmented_model.h5
+3. **Performance Analysis**:
+   The augmented model shows reduced overfitting and better generalization.
 ## Usage
 1. Place your dataset of images in the `Dataset/` directory.
 2. Run the script:
@@ -122,7 +131,7 @@ plt.show()
 python script.py
 ```
 3. The script will display the original images along with their augmented versions.
-
+ 
 ## Notes
 - Ensure `Dataset/` contains sufficient images to allow random selection.
 - You can modify augmentation parameters by adjusting `ImageDataGenerator` settings.
