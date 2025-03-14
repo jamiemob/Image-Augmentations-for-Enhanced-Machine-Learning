@@ -1,4 +1,4 @@
-# Image Augmentation with TensorFlow/Keras and # Emotion Classification Using CNN with Data Augmentation
+# Image Augmentation with TensorFlow/Keras and Emotion Classification Using CNN with Data Augmentation
 
 ## Overview
 This project performs image augmentation on a set of images using TensorFlow/Keras. The script selects five random images from a specified dataset directory, applies various augmentation techniques, and displays the original and augmented images in a grid format.
@@ -116,18 +116,6 @@ for ax in axes:
 plt.tight_layout()
 plt.show()
 ```
-## CNN Training and Comparison
-
-### Steps:
-1. **Train on Original Data**:  
-   ```bash
-   python train.py --data_dir data/original --model_name original_model.h5
-2. **Train on Augmented Data**:
-   ```bash
-   python train.py --data_dir data/augmented --model_name augmented_model.h5
-4. **Performance Analysis**:
-   - The original Model has a high training accuracy, but potential overfitting.
-   - The augmented model shows reduced overfitting and better generalization.
 ## Usage
 1. Place your dataset of images in the `Dataset/` directory.
 2. Run the script:
