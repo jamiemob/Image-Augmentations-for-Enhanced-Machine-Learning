@@ -124,6 +124,7 @@ plt.show()
    ```bash
    python train.py --data_dir data/augmented --model_name augmented_model.h5
 4. **Performance Analysis**:
+   - The original Model has a high training accuracy, but potential overfitting.
    - The augmented model shows reduced overfitting and better generalization.
 ## Usage
 1. Place your dataset of images in the `Dataset/` directory.
