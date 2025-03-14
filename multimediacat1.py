@@ -122,3 +122,8 @@ compare_model_performance(history_original, history_augmented, "Original", "Augm
 # Confusion Matrices for Both Models
 plot_confusion_matrix(cnn_original, val_generator, "Original Model")
 plot_confusion_matrix(cnn_augmented, val_generator, "Augmented Model")
+
+
+
+# plot_confusion_matrix(cnn_original, val_generator, "Original Model")
+# plot_confusion_matrix(cnn_augmented, val_generator, "Augmented Model")
