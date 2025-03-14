@@ -124,8 +124,7 @@ plt.show()
    ```bash
    python train.py --data_dir data/augmented --model_name augmented_model.h5
 4. **Performance Analysis**:
-   ```bash
-   The augmented model shows reduced overfitting and better generalization.
+   - The augmented model shows reduced overfitting and better generalization.
 ## Usage
 1. Place your dataset of images in the `Dataset/` directory.
 2. Run the script:
